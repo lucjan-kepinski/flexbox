@@ -18,26 +18,22 @@ body{
     background: #fff;
 }
 
-/*.flex-container:after{
-    content: "";
-    display: block;
-    clear: both;
-}*/
-
 .box{
     height: 100px;
     min-width: 100px;
-    /*float: left;*/
 }
 
 .one{
     background: red;
+    flex-grow: 2;
 }
 
 .two{
     background: blue;
+    flex-grow: 3;
 }
 
 .three{
     background: green;
+    flex-grow: 1;
 }
